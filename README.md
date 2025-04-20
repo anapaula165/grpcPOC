@@ -14,6 +14,25 @@ Este projeto é um exemplo completo de comunicação cliente-servidor usando gRP
   - Encerrar a conexão.
 - Toda a comunicação é feita via gRPC, usando mensagens definidas em um arquivo `.proto`.
 
+
+## 📌 Objetivo da POC
+
+A POC tem como finalidade:
+- Demonstrar o uso de **streaming bidirecional com gRPC**.
+- Simular um sistema de monitoramento de regiões, com dados carregados de um arquivo CSV.
+- Explorar conceitos de **comunicação eficiente, reatividade e troca de mensagens** em tempo real.
+- Aplicar técnicas de programação que podem ser integradas em soluções de **Ciência de Dados e Inteligência Artificial**, especialmente em ambientes com dados geolocalizados ou sistemas de alerta.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3.8+
+- gRPC
+- Protocol Buffers
+- CSV como banco de dados simples
+- Threads e streaming bidirecional
+
 ---
 
 ## Estrutura dos Arquivos e Função de Cada Um
